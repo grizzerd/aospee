@@ -6,6 +6,8 @@ env: # Environment variables to pass to all tasks
     # ENCRYPTED variables is unique for every repository, so you cant use my one, create you rclone config https://rclone.org/drive/#making-your-own-client-id
     rclone_config: "ENCRYPTED[ad89a60c2b2f6bd98e3df6e8a5d8200af9fc7a613ce14aed427d0068c14a97212332ed27b80d3d739681c05063848d83]"
     tele_bot_token: "ENCRYPTED[9b1ea941274ea588ee9c34bdbdc56f37078e090cac24ec5aed5d7913fc0a626b7603d515e259501d753031a6b984b776]"
+    d: ENCRYPTED[ecd99feda02d96a783ec3f92fa31fe5a080be53ece92c3be8823bc2f47ccb54cde110c4887037388472d41fc8ef2412c]"
+
 task:
     name: octavia # Project name
     #use_compute_credits: $CIRRUS_USER_COLLABORATOR == 'true'
